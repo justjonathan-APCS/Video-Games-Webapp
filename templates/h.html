@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+
+{% block title %}Home{% endblock %}
+
+{%block header%}Video Games: CORGIS Data{%endblock%}
+
+{% block content %}
+  The data from this data set was collected by Corgis, a data colloctor. This data set has a ton of imformation about video games. It has information on the genre of the game to the rating and playtime of the game. These data sets can be very helpful to you when trying to find specific information on a specific topic.
+
+{% endblock %}
+{%block pic%}<img src = "{{url_for('static',filename='gamingimage.jpg')}}" alt="gaming image">{%endblock%}
